@@ -1,0 +1,88 @@
+body{
+    background-image: url(image/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.div{
+    max-width: 500px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding-left: -10px;
+    padding-top: 1px;
+    margin-top: 42px;
+    border-radius: 10px;
+}
+
+.img{
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.annual{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(183, 184, 184);
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 10px;
+}
+
+.music{
+    padding-top: 17px;
+    height: 30px;
+   
+}
+
+.img1{
+    padding-left: 5px;
+    margin-top: 5px;
+    
+}
+.center{
+    margin: 14px ;  
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 19px;
+}
+
+.change{
+  color: aliceblue;
+  margin: 20px ;
+  margin-top: 24px;
+}
+
+.button{
+    text-align: center;
+    padding-left: 79px;
+    padding-right: 86px;
+    margin-left: 109px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: rgb(53, 53, 247);
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(60, 38, 207);
+}
+
+.cancel{
+    text-align: center;
+    padding-left: 10px;
+    padding-left: 79px;
+    padding-right: 86px;
+    margin-left: 129px;
+    border-radius: 10px;
+   
+    padding-bottom: 10px;
+    border: none;
+}
+
+.cancel:hover{
+    font-weight: bold;
+}
